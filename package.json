@@ -1,0 +1,24 @@
+{
+  "name": "ezchat",
+  "version": "1.0.0",
+  "description": "Ezchat app to connect with your friends easily",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAIBHAVJOE101/Ezchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VAIBHAVJOE101/Ezchat/issues"
+  },
+  "homepage": "https://github.com/VAIBHAVJOE101/Ezchat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.0"
+  }
+}
