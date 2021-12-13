@@ -4,7 +4,7 @@
   "description": "Ezchat app to connect with your friends easily",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
