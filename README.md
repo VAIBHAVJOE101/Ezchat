@@ -1,2 +1,2 @@
 # Ezchat
-A basic Realtime chat app with rooms made using socket.io and vanilla js
+Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend . 
