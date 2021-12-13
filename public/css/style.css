@@ -4,7 +4,7 @@
 	--dark-color-a: #404EED;
 	--dark-color-b: rgb(79, 99, 224);
 	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
+	--success-color: #64c464;
 	--error-color: #d9534f;
 }
 
@@ -31,13 +31,17 @@ a {
 
 .btn {
 	cursor: pointer;
-	padding: 5px 15px;
-	background: var(--light-color);
-	color: var(--dark-color-a);
-	border: 0;
+	padding: 10px 15px;
+	background: var(--success-color);
+	color: #fff;
+	border:1px solid #336600;
 	font-size: 17px;
 }
 
+.leave-btn{
+	color: #fff;
+	background: #d9534f;
+}
 /* Chat Page */
 
 .chat-container {
@@ -61,6 +65,7 @@ a {
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	height: 500px;
 }
 
 .chat-sidebar {
@@ -176,6 +181,15 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+}
+
+
+.chat-sidebar h3 {
+	padding-top: 30px;
+}
+
+.chat-sidebar #users {
+	padding-left: 30px;
 }
 
 @media (max-width: 700px) {
